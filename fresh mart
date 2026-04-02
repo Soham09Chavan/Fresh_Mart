@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<meta name="keywords" content="
+dry fruits shop near me,
+fruit shop near me,
+dry fruit shop,
+wholesale dry fruits shop near me,
+fruit juice shop near me,
+nearby dry fruits shop,
+nearby fruit shop,
+best dry fruits shop near me">
+
+<meta name="description" content="FreshMart – Premium fruit shop and dry fruits shop near you. Buy fresh fruits, dry fruits, and fresh fruit juice at the best prices.">
+
+
+<head>
+<title>FreshMart — Fruit & Dry Fruits Shop Near Me</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4VC4N4QGD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F4VC4N4QGD');
+</script>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --primary:#ff6b00;
+    --secondary:#2ecc71;
+    --dark:#0b0b0b;
+    --glass:rgba(255,255,255,0.06);
+}
+
+*{box-sizing:border-box;}
+
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:var(--dark);
+    color:white;
+}
+
+/* HEADER */
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:15px 6%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    backdrop-filter:blur(20px);
+    background:rgba(0,0,0,0.7);
+    z-index:100;
+}
+
+.logo{
+    font-size:26px;
+    font-weight:700;
+}
+.logo span{color:var(--primary);}
+
+.search-box{
+    width:260px;
+    padding:10px 20px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+}
+
+/* HERO */
+.hero{
+    padding:150px 20px 70px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3.2rem;
+    color:var(--primary);
+}
+
+.hero p{
+    color:#ccc;
+    font-size:1.2rem;
+}
+
+/* MAIN */
+main{
+    padding:40px 8%;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    gap:35px;
+}
+
+.card{
+    background:var(--glass);
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 20px 40px rgba(255,107,0,0.3);
+}
+
+.card img{
+    height:180px;
+    max-width:100%;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+
+.price{
+    font-size:1.3rem;
+    color:var(--secondary);
+    font-weight:600;
+}
+
+button{
+    margin-top:10px;
+    padding:10px 22px;
+    border:none;
+    border-radius:12px;
+    background:var(--primary);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+
+button:hover{
+    background:var(--secondary);
+}
+
+/* FOOTER */
+footer{
+    margin-top:60px;
+    padding:40px 8%;
+    background:#111;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Fresh<span>Mart</span></div>
+    <input type="text" class="search-box" placeholder="Search fruit shop near me">
+</header>
+
+<section class="hero">
+    <h1>Fruit & Dry Fruits Shop Near Me</h1>
+    <p>Fresh fruits • Premium dry fruits • Wholesale prices • Fresh juices</p>
+</section>
+
+<main>
+<div class="products">
+
+    <!-- APPLES -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=800" alt="Fresh Apples">
+        <h3>Fresh Apples</h3>
+        <div class="price">₹120 / kg</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- BANANAS -->
+    <div class="card">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.5okzrDqhBctzdQw4y4_2XQHaE7?pid=Api&P=0&h=180" alt="Organic Bananas">
+        <h3>Organic Bananas</h3>
+        <div class="price">₹60 / dozen</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- ALMONDS -->
+    <div class="card">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.m4XG-ATeHCX8DXDSFr1NFgHaE6?pid=Api&P=0&h=180" alt="Premium Almonds">
+        <h3>Premium Almonds</h3>
+        <div class="price">₹950 / kg</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- CASHEWS -->
+    <div class="card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.BJzlzhwbXaH5GtFGZJv_lgHaEK?pid=Api&P=0&h=180" alt="Cashew Nuts">
+        <h3>Cashew Nuts</h3>
+        <div class="price">₹1100 / kg</div>
+        <button>Add to Cart</button>
+    </div>
+
+   
+</div>
+</main>
+
+<footer>
+<h3>Best Dry Fruits & Fruit Shop Near Me</h3>
+<p>
+Looking for a fruit shop near me or dry fruits shop near me?  
+FreshMart provides fresh fruits, wholesale dry fruits shop near me options,
+fresh fruit juice shop near me, and premium quality dry fruits.
+We are your trusted nearby fruit shop and nearby dry fruits shop.
+</p>
+</footer>
+
+</body>
+</html>
